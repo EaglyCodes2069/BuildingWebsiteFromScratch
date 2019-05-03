@@ -82,8 +82,15 @@ body {
     margin-bottom: 20px;
 }
 
-/* NOTE: needs to be more specific with selector */
-.subtitle {
+/* image text design in natural state */
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+/* image text desig during hover state */
+.img-text-wrapper:hover .subtitle {
     font-weight: 600;
     color: lightseagreen;
 }
