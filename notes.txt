@@ -24,3 +24,5 @@ TODOs
     - images
     - split column layout
     - content
+
+-- Checkout unsplash.com for images to use on websites
